@@ -3,6 +3,5 @@ markdown: rdiscount
 pygments: true
 permalink: pretty
 auto: true
-exclude: ["CNAME"]
 rdiscount:
   extensions: [smart]
