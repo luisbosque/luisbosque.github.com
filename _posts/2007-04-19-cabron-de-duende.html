@@ -1,0 +1,46 @@
+--- 
+layout: post
+title: "Cabr\xC3\xB3n de duende..."
+tags: 
+- General
+status: publish
+type: post
+published: false
+meta: {}
+
+---
+Estaba yo intentando compilar un programa en mi ubuntu. Y no me dejaba de dar problemas de una libreria de desarrollo que no era capaz de encontrarla. Yo me volvía loco porque miraba y miraba y solo veía que esa librería cumplia perfectamente los requerimientos de versión de ese programa. Para volverme más loco aun, hay que decir que esa librería era de la debian, así que era poco probable que hubiese ido a parar a la otra punta del árbol de directorios.
+La libreria en concreto era python-gtk. Como no sabía lo que hacer probé a recompilar la versión anterior, que en realidad era la que tenía ya instalada. Cual fue mi sorpresa que también cascó con el mismo mensaje solo que en otra librería, en este caso la equivalente en debian a libgstreamer-0.10-dev.
+Decidí echar un vistazo a fondo y esto fue lo que saqué en claro:
+
+<blockquote>
+# dpkg -l |grep libgstreamer0.10-dev
+ii  libgstreamer0.10-dev                       0.10.10-1ubuntu2                     GStreamer core development files
+</blockquote>
+
+Es decir, la libreria está instalada en el sistema. (La de python-gtk me daba el mismo resultado)
+
+<blockquote>
+# dpkg -L libgstreamer0.10-dev |grep .pc
+/usr/lib/pkgconfig/gstreamer-0.10.pc
+/usr/lib/pkgconfig/gstreamer-base-0.10.pc
+/usr/lib/pkgconfig/gstreamer-check-0.10.pc
+/usr/lib/pkgconfig/gstreamer-controller-0.10.pc
+/usr/lib/pkgconfig/gstreamer-dataprotocol-0.10.pc
+/usr/lib/pkgconfig/gstreamer-net-0.10.pc
+</blockquote>
+
+Mirando a ver si ese paquete proporcionaba los ficheros .pc que sirven de ayuda en el proceso de compilación de un paquete, me encuentro con que sí, que los proporciona, y que además están en la ruta donde se supone que se busca antes de la compilación del paquete.
+
+<blockquote>
+# ls /usr/lib/pkgconfig/
+gstreamer-plugins-base-0.10.pc  libexslt.pc  libxslt.pc  ogg.pc  theora.pc  vorbisenc.pc  vorbisfile.pc  vorbis.pc  x11.pc
+</blockquote>
+
+Al mirar en esa carpeta veo, que es una desolación. Solo están los .pc correspondientes a unas librerias que había estado instalando hoy mismo por la mañana. Teniendo en cuenta que tenia 98 paquetes de desarrollo instalados en el sistema..... Donde diablos fueron a parar los demás? Esta vez, cuando pille al duendel del ordenador, pienso colgarle de los cojones.
+
+Solución rápida, reinstalar de nuevo todos los paquetes de desarrollo que tenía en el sistema:
+
+<blockquote>
+apt-get install --reinstall `dpkg -l |grep "\-dev" |awk '{print $2}'`
+</blockquote>

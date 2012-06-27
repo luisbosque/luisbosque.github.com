@@ -1,0 +1,39 @@
+--- 
+layout: post
+title: NTP y Xen
+tags: 
+- debian
+- linux
+- Madrid
+- ntp
+- ntpdate
+- ntptrace
+- Sistemas
+- Trabalho
+- xen
+status: publish
+type: post
+published: false
+meta: 
+  _edit_last: "2"
+---
+Posiblemente esto estará documentado en un montón de sitios en internet, pero aun así lo comento. Me he estado volviendo loco un buen rato, porque no conseguia poner en hora algunos de los servidores. Tenía instalado ntp y ntpdate. Lo reinstalaba, intentaba reconfigurarlo, usar servidores de hora distintos, y siempre me decía que tenía un offset de 53 minutos entre los servidores de hora y el servidor en cuestión.
+
+Al lanzar un ntptrace, obtenía algo así:
+<pre>
+# ntptrace
+localhost: stratum 16, offset 0.000000, synch distance 0.012450
+</pre>
+
+cosa, que no tenía sentido, ya que después de localhost debería de aparecer el trace de los servidores a los que este consulta a su vez.
+
+Estos servidores que me daban problemas eran instancias virtuales de Xen, así que al final se me ha ocurrido la feliz idea de mirar en que estado estaba ntp en el host físico. Como se puede imaginar, ntp no estaba instalado. Lo he instalado, he reiniciado los ntp de las instancias virtuales y TACHAN! la hora se ha sincronizado.
+
+La razón de esto se puede encontrar <a href="http://wiki.xensource.com/xenwiki/InstallationNotes">aquí</a> es la siguiente:
+
+<blockquote>
+The following services are not needed anymore:
+* ntpd
+the xenU uses the dom0 time
+If you want to run ntp in the domU, try: echo 1 &gt; /proc/sys/xen/independent_wallclock
+</blockquote>

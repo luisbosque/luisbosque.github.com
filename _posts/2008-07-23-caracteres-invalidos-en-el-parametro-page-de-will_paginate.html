@@ -1,0 +1,48 @@
+--- 
+layout: post
+title: "Caracteres inv\xC3\xA1lidos en el parametro page de will_paginate"
+tags: 
+- "\"caracter invalido\""
+- bug
+- "programaci\xC3\xB3n"
+- rails
+- ruby
+- Trabalho
+- will_paginate
+status: publish
+type: post
+published: false
+meta: 
+  _edit_last: "2"
+  delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1247076379";}";
+---
+Hoy me han llegado al correo varias <a href="http://agilewebdevelopment.com/plugins/exception_notifier">notificaciones de excepciones</a> una aplicación Rails. Estos errores se han generado por no indicar el parámetro page del <a href="http://github.com/mislav/will_paginate/tree/master">will_paginate</a>, de la siguiente forma:
+<br />
+<pre>http://localhost:3000/fotos?page=</pre>
+<br />
+El código de will_paginate no contempla eso, por lo que tenía dos opciones. Una poner un filtro en mis controladores para asegurarme de que hubiese algún número de pagina. Esa opción es muy poco DRY, así que he hecho el siguiente cambio en el collection.rb del plugin de will_paginate:
+<br />
+<code>
+<pre>
+Index: vendor/plugins/will_paginate/lib/will_paginate/collection.rb
+===================================================================
+--- vendor/plugins/will_paginate/lib/will_paginate/collection.rb        (revisión: 65)
++++ vendor/plugins/will_paginate/lib/will_paginate/collection.rb        (copia de trabajo)
+@@ -16,7 +16,7 @@
+     # populating the collection using the +replace+ method.
+     #
+     def initialize(page, per_page, total = nil)
+-      @current_page = page.to_i
++      @current_page = !page.blank? &amp;&amp; page != 0 &amp;&amp; page.to_i != 0 ? page.to_i : 1
+       @per_page     = per_page.to_i
+
+       self.total_entries = total if total
+</pre>
+</code>
+<br />
+La verdad es que no se, ni si eso está contemplado en versiones posteriores a la que estoy usando, ni si es una buena solución, pero a mi me ha servido para resolver el problema rápidamente y sin tirar apenas código.
+Con ese cambio, además de asegurarme de que la aplicación no de 500 al no poner ningún número en el parámetro page, también me aseguro de que no se rompa por poner un parámetro que no sea un número, como por ejemplo:
+<br />
+<pre>http://localhost:3000/fotos?page=foobar</pre>
+<br />
+Pos eso.

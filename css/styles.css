@@ -1,0 +1,142 @@
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+/*ol,ul {*/
+ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* Styles */
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Droid Sans", sans-serif;
+  font-size: x-small;
+  line-height: 1.5;
+  color: #2E3436;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 96em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper .content {
+  overflow: hidden;
+}
+
+.wrapper .content, .wrapper .header, .wrapper .footer {
+  background-color: #FFFFFF;
+  padding: 2em 1em;
+}
+
+.wrapper .header {
+  border-bottom: 4px solid green;  
+}
+
+.wrapper .header h1 {
+  font-size: 3.8em;
+  line-height: 1.6;
+}
+
+.wrapper h1 a {
+  color: #2E3436;
+}
+
+.wrapper h1 a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.wrapper h2 {
+  font-size: 2.7em;
+}
+
+.wrapper h2 span.date {
+  display: none;
+}
+
+.wrapper h3 {
+  font-size: 2em;
+  color: grey;
+}
+
+.wrapper h4 {
+  font-size: 1.8em;
+  color: grey;
+  font-style: italic;
+}
+
+.wrapper .content ol {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.wrapper .content ul#posts a {
+ color: #2E3436;
+}
+
+.wrapper .content ul li, .wrapper .content ol li, .wrapper .content p {
+  padding: 0.9em 0;  
+  font-size: 1.6em;  
+}
+
+
+/* 
+.wrapper .content ul li span {
+  background-color: #F6F6F4;
+  width: 2em;
+  display: none;
+  font-size: 2em;
+  padding: 0.2em;
+}
+*/
+.wrapper .footer {
+  border-top: 4px solid green;  
+}
+
+.gist {
+  padding: 1.5em 0;  
+  font-size: 1.4em;
+}
+ 
+.highlight {
+  overflow: hidden;
+  padding: 1.2em;
+  font-size: 1.9em;
+}

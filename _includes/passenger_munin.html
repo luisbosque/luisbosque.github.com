@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+
+def output_config
+  puts <<-END
+graph_category Passenger
+graph_title passenger memory stats
+graph_vlabel megabytes
+
+apache_memory.label apache_memory
+passenger_memory.label passenger_memory
+END
+  exit 0
+end
+
+def output_values
+  memory_stats_command = '/usr/bin/passenger-memory-stats'
+  memory = {}
+
+  apache_header = "Apache processes"
+  passenger_header = "Passenger processes"
+  nginx_header = "Nginx processes"
+  section = nil
+
+  `#{memory_stats_command}`.each_line do |line|
+    if line.include?(apache_header)
+      section = "apache"
+    elsif line.include?(nginx_header)
+      section = "nginx"
+    elsif line.include?(passenger_header)
+      section = "passenger"
+    elsif /### Total private dirty RSS: (\d+\.\d+) MB/.match(line)
+      memory[section] = $1
+    else
+      next
+    end
+  end
+
+  puts "apache_memory.value #{memory['apache']}"
+  puts "passenger_memory.value #{memory['passenger']}"
+  #puts "nginx_memory.value #{memory['nginx']}"
+end
+
+if ARGV[0] == "config"
+  output_config
+else
+  output_values
+end

@@ -1,0 +1,40 @@
+--- 
+layout: post
+title: ServerName y ServerAlias en Apache
+tags: 
+- apache
+- serveralias
+- servername
+- Sistemas
+- trabajo
+- virtualhost
+- wildcards
+status: publish
+type: post
+published: false
+meta: 
+  _edit_last: "2"
+  delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1249456552";}";
+---
+En el <a href="http://httpd.apache.org/">servidor web apache</a>, dentro de un <a href="http://httpd.apache.org/docs/2.2/mod/core.html#virtualhost">VirtualHost</a> se puede incluir un <a href="http://httpd.apache.org/docs/2.2/mod/core.html#servername">ServerName</a> para que Apache sepa que ha de aplicar la configuración contenida en ese VirtualHost a las peticiones dirigidas al DNS de dicho ServerName.
+También se puede incluir uno o varios <a href="http://httpd.apache.org/docs/2.2/mod/core.html#serveralias">ServerAlias</a> dentro del mismo VirtualHost por si el site definido en dicho VirtualHost puede ser accedido a través de más de un DNS diferente.
+
+Ahora bien, la diferencia entre ServerName y ServerAlias es que el ServerAlias acepta wildcards y el ServerName no.
+Yo puedo hacer lo siguiente:
+
+<pre>
+&lt;VirtualHost&gt;
+  ServerName example.com
+  ServerAlias *.example.com
+  ...
+&lt;/VirtualHost&gt;
+</pre>
+
+pero no puedo hacer esto:
+
+<pre>
+&lt;VirtualHost&gt;
+  ServerName *.example.com
+  ...
+&lt;/VirtualHost&gt;
+</pre>

@@ -1,0 +1,33 @@
+--- 
+layout: post
+title: "Cambiar la contrase\xC3\xB1a del dep\xC3\xB3sito de claves de gnome en Ubuntu"
+tags: 
+- "\"deposito de claves\""
+- "\"gnome keyring manager\""
+- "contrase\xC3\xB1as"
+- gconf
+- Ocio
+- seahorse
+- Sistemas
+- ubuntu
+- WTF
+status: publish
+type: post
+published: false
+meta: 
+  _edit_last: "2"
+  delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1247076400";}";
+---
+A los que usáis ubuntu, os habrá pasado que instaláis el sistema con un usuario y una pass y un día decidís cambiar la contraseña de vuestro usuario (lo más normal del mundo). Es cuando intentáis acceder al depósito de claves o Gnome Keyring Manager que se os queda cara de <a href="http://wtf.microsiervos.com/">WTF</a> porque al meter vuestra contraseña del usuario, le da por no aceptarla. Eso es porque han hecho mal el depósito de claves y utiliza su contraseña a parte. Al acceder por primera vez al mismo, te pide una contraseña que normalmente es la que usas en tu usuario. Lo que ocurre esque el keyring manager guarda esta contraseña en su fichero de configuración de gconf y no comparte la contraseña de sistema del usuario. Así que para acceder, basta con acordarse de la contraseña que se puso en su momento.
+
+Para los que no les da la gana de seguir usando una contraseña antigua para el depósito y quieren cambiarla, lo pueden hacer de la siguiente forma:
+<ul>
+	<li>Instalar el seahorse que es principalmente un depósito de claves GPG.
+<pre># apt-get install seahorse</pre>
+</li>
+	<li>Abres seahorse y vas a Editar -&gt; Preferencias -&gt; Depósito de claves. Una vez ahí pones la contraseña del depósito que será la que pusiste en un comienzo y luego le pones la nueva contraseña y listo.</li>
+</ul>
+
+Hay otra solución que sirve para no tener que ni siquiera introducir ninguna contraseña para abrir el depósito y que se abra automaticamente al iniciar la sesión. Es fácil y rápido de hacer. Se puede ver <a href="http://johnny.chadda.se/2007/02/21/unlock-the-gnome-keyring-upon-login/">aquí</a>.
+
+Buscando como hacer todo esto vi un buen número de animalicos diciendo que para hacer eso había que cargarse el fichero de gconf del gnome-keyring-manager y así la siguiente vez que se fuese abrir pediría una contraseña nueva. Eso es matar moscas a cañonazos, ya que junto con la contraseña esto se carga el depósito en si, y con él todas las claves que hay guardadas. En mi opinión es un método aceptable si lo que ocurre es que no te acuerdas de la contraseña que pusiste en un comienzo para el depósito.

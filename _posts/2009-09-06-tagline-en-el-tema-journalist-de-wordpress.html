@@ -1,0 +1,27 @@
+--- 
+layout: post
+title: Tagline en el tema journalist de wordpress
+tags: 
+- journalist
+- "programaci\xC3\xB3n"
+- tagline
+- wordpress
+status: publish
+type: post
+published: false
+meta: 
+  _edit_last: "2"
+---
+He hecho un pequeñito cambio en el tema <a href="http://lucianmarin.com/downloads/journalist.zip">journalist</a> de <a href="http://lucianmarin.com/">Lucian Marin</a>, que es el que uso en este blog.
+El cambio lo he aplicado a la última versión en la que, en la cabecera del tema, aparece un diálogo de fondo negro con el tagline del blog. Lo que he hecho es simplemente meterle un if para que no muestre el diálogo si el blog no tiene definido el tagline.
+
+Este cambio hay que aplicárselo al header.php de dicho tema. A continuación pongo el <a href="http://blog.luisbosque.com/wp-content/uploads/2009/09/journalist_header.diff">diff</a> del fichero:
+
+<pre>
+19c19,21
+&lt; &lt;div id="bubble"&gt;&lt;p&gt;&lt;?php bloginfo('description'); ?&gt;&lt;/p&gt;&lt;/div&gt; &lt;!-- erase this line if you want to turn the bubble off --&gt;
+---
+&gt; &lt;?php if (strlen(get_bloginfo('description')) &gt; 0) { ?&gt;
+&gt;   &lt;div id="bubble"&gt;&lt;p&gt;&lt;?php bloginfo('description'); ?&gt;&lt;/p&gt;&lt;/div&gt;
+&gt; &lt;?php } ?&gt;
+</pre>
