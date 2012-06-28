@@ -76,6 +76,7 @@ a:hover {
 
 .wrapper h1 a {
   color: #2E3436;
+  font-family: "Nimbus Roman No9 L";
 }
 
 .wrapper h1 a:hover {
@@ -87,8 +88,9 @@ a:hover {
   font-size: 2.7em;
 }
 
-.wrapper h2 span.date {
-  display: none;
+.wrapper span.date {
+  color: #888A85;
+  font-size: small;
 }
 
 .wrapper h3 {
@@ -111,8 +113,21 @@ a:hover {
  color: #2E3436;
 }
 
+.wrapper .content ul#posts span.date {
+  float: right;
+}
+
+.wrapper .content li:hover {
+  background-color: #EBFFC2;
+}
+
 .wrapper .content ul li, .wrapper .content ol li, .wrapper .content p {
   padding: 0.9em 0;  
+  font-size: 1.6em;  
+}
+
+.wrapper .content ul li, .wrapper .content ol li{
+  padding: 0.9em 0.4em;  
   font-size: 1.6em;  
 }
 
