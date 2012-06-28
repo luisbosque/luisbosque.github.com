@@ -4,23 +4,22 @@ title: 12 meses
 status: publish
 type: post
 published: true
-date: 2012-06-28 01:10:00
+date: 2012-06-29 01:35:00
 ---
 
-Hace un tiempo que quería escribir este post, además de volver a escribir en general en el blog.
-Sin duda alguna, un aliciente grande es parar de usar wordpress y empezar a usar [jekyll](http://jekyllrb.com/). Poder escribir los posts en [markdown](http://en.wikipedia.org/wiki/Markdown), desde consola y con las facilidades que te da github para publicar código jekyll es todo un lujazo.
+Resuelto a volver a escribir en el blog (una vez más) empiezo haciendo un breve resumen de mis últimos 12 meses, que han sido más movidos de lo habitual.
 
-Simplemente quería hacer una pequeña retrospectica del último año o año y poco, que ha sido bastante ajetreado.
-Hace menos de año y medio me encontraba en Brasil trabajando en remoto. En Marzo volví a Madrid. A mitad de año decidí cambiar de trabajo. Llevaba años en el mismo y había algo que no acababa de encajar. Estaba estancado y necesitaba evolucionar.
-A partir de ahí empezo una racha un poco regulera. A final de verano tuve un pequeño accidente que resultó en otro problema de salud y que me tuvo hasta final de año con problemas y todo tipo de pruebas médicas. A esto se le suma, que el cambio de trabajo que hice resultó no ser tan bueno como se me antojaba en el momento. No voy a entrar en detalles pero se puede decir que simplemente no encajaba personal ni profesionalmente. Culpa de nadie, simplemente no era para mi.
+Hace año y medio estaba viviendo en Porto Alegre y trabajando en remoto. En Marzo volví a Madrid. A mitad de año decidí cambiar de trabajo. Llevaba más de 3 años y me encontraba bastante estancado. Era el momento de seguir creciendo.
 
-Todo esto, obviamente, deja la moral y la ilusión por los suelos. No obstante, igual que a veces se junta el comienzo de los problemas, también se junta el final de ellos. A final de año tuve la gran noticia de que estaba bien de salud y entré a formar parte de las filas de [Vizzuality](http://vizzuality.com/).
+El cambio no resultó todo lo beneficioso que se esperaba. Desafortunadamente, casi al mismo tiempo me encontré con algunos problemas de salud que me tuvieron bastante regulero durante meses. Por ambos motivos, y algunos otros de carácter familiar, me arrastré hasta final de año como alma en pena, la moral baja y con más bien poca motivación.
 
-Es un buen momento de hablar de Vizzuality ya que hace un par de semanas que cumplí 6 meses aquí.
-En su momento parecía ser todo lo que esperaba de un trabajo y ha resultado ser exactamente así. El primer día me encontré con un equipo impecable que no creía que pudiese existir. Cuando estás en un equipo así te das cuenta de que un requisito indispensable para que estés feliz en tu trabajo es admirar a tus colegas. En este caso se sumple al 100%. Las otras dos motivaciones con las que me encuentro es que participo en proyectos que realmente importan (al menos desde mi punto de vista) y que estoy teniendo la oportunidad de evolucionar hacia puntos en los que no me habían dado antes la posibilidad de hacerlo.
-Estamos realizando proyectos impresionantes y la gente de Vizzuality no para de sorprenderme día a día. Es como recibir una lección magistral todos los días.
-Todo eso sin contar con [CartoDB](http://cartodb.com/) que se ha convertido en un hijo para mí y en el que vengo depositando gran esfuerzo y mucha ilusión.
+Por fortuna, a veces los problemas que empiezan juntos también terminan al mismo tiempo. Este fue precisamente el caso. El médico me dio buenas noticias y acabé cambiando de trabajo.
 
-Todo este "confort espiritual" se nota en el día a día. Se acaba ganando mucha confianza en un mismo. Un ejemplo de ello es el inglés, algo que no dominaba (ni dominaré nunca) pero con lo que ahora mismo me siento totalmente cómodo. Otra consecuencia del buen ánimo es que a principio de año me encontré cogiendo las riendas del grupo [Madrid-DevOps](https://madrid-devops.jottit.com) junto con [Néstor](http://nestor.babuine.net/) y los dos estamos muy contentos con la decisión. Estamos conociendo gente increíble y dedicando algo de nuestro tiempo a cosas que realmente nos gustan.
+Aquí es donde viene la mejor parte. Me uní a las filas de [Vizzuality](http://vizzuality.com/).
 
-No me puedo dejar algo importante en el tintero. En horas bajas, quien te empuja es la familia y los amigos (un tópico) y en este caso ha sido realmente así. Todos ellos. Eso sí, hay que destacar que sin [@Ladyju](https://twitter.com/#!/Ladyju) todo habría sido muchísimo más dificil.
+Podría pegarme horas hablando de todas las bondades de Vizzuality y no me cansaría. Para no alargarme demasiado debo decir que admiro profundamente a cada uno de mis [colegas](http://vizzuality.com/company), que me siento plenamente realizado y que el trabajo duro que todos ponemos en este equipo no impide que me levante todos los días con ganas de más.
+Participamos en proyectos que realmente importan (al menos en mi opinión) y con los que uno se siente orgulloso. Y por supuesto no puedo dejar de mencionar [CartoDB](http://cartodb.com/) que es como un hijito para mí y al que dedico la mayor parte de mi tiempo y esfuerzo.
+
+Cuando estás en un estado psicológico tan bueno todo sale rodado. Un ejemplo de ello es que a principio de año me encontré tomando las riendas del grupo [Madrid-DevOps](https://madrid-devops.jottit.com) junto con [Néstor](http://nestor.babuine.net/). Ambos estamos muy contentos con la decisión. Estamos conociendo gente increíble y dedicando algo de nuestro tiempo a cosas que realmente nos gustan.
+
+No quiero dejarme lo más importante de esta retrospectiva y que puedo calificar como conclusión o moraleja. Todos tenemos temporadas malas y muy malas. A mi me tocó el año pasado una de las malas. En estas situaciones, por muy tópico que parezca, quien te ayuda son los de siempre, familia y amigos. En mi caso ha sido así efectivamente y tengo toda la suerte del mundo por ello. Ahora bien, he de decir que sin [@Ladyju](https://twitter.com/#!/Ladyju) a mi lado todo habría sido muchísimo más dificil.
