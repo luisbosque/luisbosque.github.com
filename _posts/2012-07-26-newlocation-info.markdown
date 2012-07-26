@@ -22,4 +22,4 @@ That's it.  Anyone can keep accessing the old URL's. Also search indexers are no
 
 It's still a beta service. I'm planning to add some cool stuff like user signup in order to have more control over our own redirections, and maybe possibility to add regex redirections.
 
-BTW, it's a free service.
+I believe that it's a great tool for people that cares about SEO. There are a lot of possibilities, mainly for development purposes. And the best part is that it's free =)
