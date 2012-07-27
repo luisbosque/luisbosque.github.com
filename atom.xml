@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>luisico</title>
+  <link href="http://blog.luisico.net/"/>
+  <link type="application/atom+xml" rel="self" href="http://blog.luisico.net/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://blog.luisico.net/</id>
+  <author>
+    <name>Luis Bosque</name>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://blog.luisico.net{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://blog.luisico.net{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Luis Bosque</name>
+      <uri>http://blog.luisico.net/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
