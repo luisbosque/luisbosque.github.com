@@ -6,3 +6,8 @@ layout: base
   <span class="date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
+
+<div id=tags>
+  <span>{{ page.tags | join: ', ' }}</span>
+</div>
+

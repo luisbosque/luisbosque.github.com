@@ -167,3 +167,8 @@ div#post ul li {
   list-style-type: disc;
   margin-left: 2em;
 }
+
+div#tags {
+  padding: 2em 0 1em 0;
+  font-style: italic;
+}
