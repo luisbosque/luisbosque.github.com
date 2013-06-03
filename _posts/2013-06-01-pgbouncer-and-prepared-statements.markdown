@@ -5,6 +5,11 @@ status: publish
 type: post
 published: true
 date: 2013-06-01 10:00
+tags: 
+- postgresql
+- pgbouncer
+- prepared statements
+- osm2pgsql
 ---
 
 Just a small post than can save some time to someone with the same problem.
@@ -21,3 +26,5 @@ If your code or any of your application use prepared statements you have three o
 * Stop using prepared statements
 * Stop using pgbouncer with your prepared statements ready code
 * Think about moving to session pooling strategy in pgbouncer
+
+I've personally noticed this problem with [osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql). This command uses prepared statements. Disabling prepared statements in osm2pgsql is not possible without forking it and making major changes. So in this case I will need to bypass pgbouncer when using this tool.
