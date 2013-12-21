@@ -9,9 +9,10 @@ tags:
 - orm
 - opinion
 - reliability
+- performance
 ---
 
-Some days ago I complained about standard ORMs in twitter. My complains were supposedly a little bit out of context. So i'm goint to try to explain my opinion about it.
+Some days ago I complained about standard ORMs in twitter. My complains were supposedly a little bit out of context. So I'm goint to try to explain my opinion about it.
 
 First of all I need to admit that I use standard ORM's at work (at home I try to do write my own object mappers). However, using them doesn't mean that I'm blind and not able to see important problems about them.
 
