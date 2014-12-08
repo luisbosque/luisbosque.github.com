@@ -68,11 +68,34 @@ a:hover {
 
 .wrapper .header {
   border-bottom: 4px solid green;  
+  overflow: hidden;
+  line-height: 1;
+}
+
+.wrapper .header a.github, .wrapper .header a.twitter {
+  float: right;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+.wrapper .header a.twitter {
+  background: url('../images/twitter.png') no-repeat left top;
+  height: 28px;
+  width: 34px;
+  text-indent: -9999px; 
+}
+
+.wrapper .header a.github {
+  background: url('../images/github.png') no-repeat left top;
+  height: 28px;
+  width: 28px;
+  text-indent: -9999px; 
 }
 
 .wrapper .header h1 {
   font-size: 3.8em;
-  line-height: 1.6;
+  /*line-height: 1.6;*/
+  float: left;
 }
 
 .wrapper h1 a {
