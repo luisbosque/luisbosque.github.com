@@ -1,5 +1,5 @@
 markdown: rdiscount
-highlighter: true
+pygments: true
 permalink: pretty
 rdiscount:
   extensions: [smart]
