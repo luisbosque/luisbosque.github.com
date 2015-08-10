@@ -3,7 +3,7 @@ layout: post
 title: The art of blaming everyone but yourself
 status: publish
 type: post
-published: false
+published: true
 date: 2015-08-10 09:00
 tags: 
 - personal
