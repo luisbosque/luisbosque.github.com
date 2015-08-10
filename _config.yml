@@ -1,7 +1,5 @@
-server: true
 markdown: rdiscount
-pygments: true
+highlighter: true
 permalink: pretty
-auto: true
 rdiscount:
   extensions: [smart]
