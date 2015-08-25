@@ -29,9 +29,9 @@ The process is simple:
 The Syslog server needs to know how to match the specific message from the check script and send it back to the source script, so it needs a small previous configuration.
 
 The code is hosted in github. There you cand find detailed information about how to run this script and how to configure a Syslog server in the README file.
-<a href="http://github.com/lbosque/check_syslog">http://github.com/lbosque/check_syslog</a>
+<a href="http://github.com/luisbosque/check_syslog">http://github.com/luisbosque/check_syslog</a>
 
 You can also clone directly the repository and see the README with your favourite editor:
 {% highlight bash %}
-git://github.com/lbosque/check_syslog.git
+git://github.com/luisbosque/check_syslog.git
 {% endhighlight %}
