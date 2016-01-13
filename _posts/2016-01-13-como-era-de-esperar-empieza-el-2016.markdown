@@ -20,7 +20,7 @@ Acabé Febrero con una vesícula biliar menos. En realidad tampoco le tenía tan
 
 En Abril adoptamos a *Preta*. Felini es insustituible, pero *Pixie* estaba un poco sola. No son amigas del alma pero se soportan y se hacen compañía. Es una terrorista pero más maja que las pesetas.
 
-En Junio pasamos dos semanas en Japón. Fue brutal. Me flipó un montón.
+En Junio pasamos dos semanas en Japón. Fue impresionante. Me flipó un montón.
 
 En Julio me rompí los dos dedos gordos de los pies al tirarme por una cuesta en skate sin saber frenar. Hay moraleja en la historia.
 
