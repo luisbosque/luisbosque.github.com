@@ -34,7 +34,7 @@ En Diciembre pasamos los días de las fiestas en Zaragoza. No me gustan las navi
 
 El mismo día 31 me comí un torrezno majestuoso. Hacía más de año y medio que soñana con un *buen* torrezno. Entre dietas forzadas, operaciones y movidas no había tenido la oportunidad. En el último momento cayó.
 
-Otro evento triste es el del fallecimiento de Ian Murdock, fundador de Debian. Ocurrió en Diciembre. Sin duda Debian fue uno de los principales causantes de que empezase mi carrera en los sistemas Linux.
+Otro evento triste es el del fallecimiento de Ian Murdock, fundador de Debian. Ocurrió en Diciembre. Sin duda Debian fue uno de los principales causantes de que empezase mi carrera en los sistemas Linux. Mis mayores respetos.
 
 
 En *CartoDB* cumplí 4 años en Diciembre. Son ya muchos años en los que ha habido momentos de todo tipo. Hemos pasado de ser niños a adultos pasando por una adolescencia rebelde. Personalmente me estoy enfrentando a retos que no había tenido nunca antes. Está siendo jodidamente duro pero también una experiencia única y, en retrospectiva, muy bonita.
