@@ -18,7 +18,7 @@ A mitad de Enero nuestro gato *Felini* nos dejó. Fue muy muy duro. Realmente du
 
 Acabé Febrero con una vesícula biliar menos. En realidad tampoco le tenía tanto aprecio.
 
-En Abril adoptamos a *Preta*. Felini es insustituible, pero *Pixie* estaba un poco sola. No son amigas del alma pero se soportan y se hacen compañía. Es una terrorista pero muy majica.
+En Abril adoptamos a *Preta*. Felini es insustituible, pero *Pixie* estaba un poco sola. No son amigas del alma pero se soportan y se hacen compañía. Es una terrorista pero más maja que las pesetas.
 
 En Junio pasamos dos semanas en Japón. Fue brutal. Me flipó un montón.
 
@@ -32,7 +32,9 @@ En Diciembre pasamos los días de las fiestas en Zaragoza. No me gustan las navi
 
 El mismo día 31 me comí un torrezno majestuoso. Hacía más de año y medio que soñana con un *buen* torrezno. Entre dietas forzadas, operaciones y movidas no había tenido la oportunidad. En el último momento cayó.
 
+Otro evento triste es el del fallecimiento de Ian Murdock, fundador de Debian. Ocurrió en Diciembre. Sin duda Debian fue uno de los principales causantes de que empezase mi carrera en los sistemas Linux.
+
 
 En *CartoDB* cumplí 4 años en Diciembre. Son ya muchos años en los que ha habido momentos de todo tipo. Hemos pasado de ser niños a adultos pasando por una adolescencia rebelde. Personalmente me estoy enfrentando a retos que no había tenido nunca antes. Está siendo jodidamente duro pero también una experiencia única y, en retrospectiva, muy bonita.
 
-Evidentemente tengo propósitos para este año. Pero en lo que realmente confío es en que va a ser brutal en lo personal y profesional.
+Evidentemente tengo propósitos para este año. Pero en lo que realmente confío es en que va a ser brutal en lo personal y lo profesional.
