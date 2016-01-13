@@ -22,6 +22,8 @@ En Abril adoptamos a *Preta*. Felini es insustituible, pero *Pixie* estaba un po
 
 En Junio pasamos dos semanas en Japón. Fue brutal. Me flipó un montón.
 
+En Julio me rompí los dos dedos gordos de los pies al tirarme por una cuesta en skate sin saber frenar. Hay moraleja en la historia.
+
 En Septiembre pasamos unos días por Galicia con mis suegros y otros familiares de Brasil. Fuimos de boda también. Estuvo muy bien. Nos pusimos tibios de comer, evidentemente.
 
 En Octubre di una charla de 10 minutos durante la keynote de AWS en Barcelona. No suelo dar muchas charlas, pero esta fue delante de más de 200 personas. Fue una experiencia muy interesante. No me salió todo lo fina que querría.
