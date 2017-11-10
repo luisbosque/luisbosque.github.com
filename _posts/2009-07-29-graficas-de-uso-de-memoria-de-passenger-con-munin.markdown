@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Gr\xC3\xA1ficas de uso de memoria de passenger con Munin"
+title: "Gráficas de uso de memoria de passenger con Munin"
 tags: 
 - apache
 - munin

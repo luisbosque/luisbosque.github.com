@@ -7,6 +7,8 @@ published: true
 date: 2012-07-26 10:00
 ---
 
+<strong>UPDATE:</strong> I finally closed this service. I was the main user of the service and I didn't need it anymore
+
 My last personal project is alive. Its name: [newlocation.info](http://newlocation.info).
 
 I had my blog and other stuff in a virtual server but I decided to shut it down. I didn't need a entire server for a few things.
