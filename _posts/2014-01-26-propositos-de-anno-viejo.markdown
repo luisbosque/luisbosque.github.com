@@ -3,7 +3,7 @@ layout: post
 title: Propósitos de año viejo
 status: publish
 type: post
-published: true
+published: false
 date: 2014-01-26 09:00
 tags: 
 - personal
