@@ -49,13 +49,17 @@ a {
 em {
   font-style: italic;  
 }
-
+i
 strong {
   font-weight: bold;  
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.post-header {
+  margin-bottom: 2em;
 }
 
 .wrapper {
@@ -65,8 +69,9 @@ a:hover {
 }
 
 .wrapper .content {
+  font-size: 1.15em;
   overflow: hidden;
-  font-family: "Droid Sans", sans-serif;
+  font-family: "ibm-plex-sans", sans-serif;
 }
 
 .wrapper .content, .wrapper .header, .wrapper .footer {
@@ -75,29 +80,35 @@ a:hover {
 }
 
 .wrapper .header {
-  border-bottom: 4px solid green;  
+  /*  border-bottom: 2px solid #595959;  */
   overflow: hidden;
   line-height: 1;
 }
 
-.wrapper .header a.github, .wrapper .header a.twitter {
+.wrapper .header div#logos {
+  margin-top: 8px;
+  margin-right: 16px;
+  height: 40px;
   float: right;
-  margin-left: 20px;
-  margin-top: 6px;
 }
 
 .wrapper .header a.twitter {
   background: url('../images/twitter.png') no-repeat left top;
-  height: 28px;
-  width: 34px;
-  text-indent: -9999px; 
+  background-size: 26px 20px;
+  height: 20px;
+  width: 26px;
+  text-indent: -9999px;
+  float: right;
+  margin-right: 20px;
 }
 
 .wrapper .header a.github {
   background: url('../images/github.png') no-repeat left top;
-  height: 28px;
-  width: 28px;
+  background-size: 22px 22px;
+  height: 24px;
+  width: 22px;
   text-indent: -9999px; 
+  float: right;
 }
 
 .wrapper .header h1 {
@@ -117,6 +128,7 @@ a:hover {
 
 .wrapper h2 {
   font-size: 2.7em;
+  text-transform: uppercase;
 }
 
 .wrapper span.date {
@@ -135,6 +147,9 @@ a:hover {
   font-style: italic;
 }
 
+.wrapper .content ul#posts {
+  text-transform: uppercase;
+}
 
 .wrapper .content ul#posts a {
  color: #2E3436;
@@ -168,9 +183,11 @@ a:hover {
   padding: 0.2em;
 }
 */
+/*
 .wrapper .footer {
-  border-top: 4px solid green;  
+  border-top: 2px solid #595959;  
 }
+*/
 
 .gist {
   padding: 1.5em 0;  
