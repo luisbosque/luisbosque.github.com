@@ -1,4 +1,3 @@
-markdown: rdiscount
 highlighter: rougue
 permalink: pretty
 rdiscount:
