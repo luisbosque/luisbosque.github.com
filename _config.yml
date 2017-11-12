@@ -1,4 +1,4 @@
-highlighter: rougue
+highlighter: rouge
 permalink: pretty
 rdiscount:
   extensions: [smart]
