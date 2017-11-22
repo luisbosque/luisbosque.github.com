@@ -212,7 +212,7 @@ div#post ul li {
 }
 
 .wrapper .content ol {
-  list-style-type: disc;
+  /*list-style-type: disc;*/
   margin-left: 2em;
 }
 
