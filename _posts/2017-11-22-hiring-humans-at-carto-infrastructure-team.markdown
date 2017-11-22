@@ -15,7 +15,7 @@ I'm going to talk specifically about Infrastructure team. This year is being par
 Hiring is a very exhausting process. Reviewing candidates applications, doing sourcing, interviews, technical tests reviews, etc..
 In the end I want to make sure that the right people join the team. Because of this I prefer to spend all the time needed on designing a good process so we try to maximize the number of matches.
 
-Saing this it may seem I'm an expert in the matter. The truth is that before 2017 our hiring process was crap. It wasn't diverse, inclusive, smooth for either the candidate or us and, obviously, it was no fun. We were able to hire mainly thanks to friends, employees contacts and the company's hype.
+Saying this it may seem I'm an expert in the matter. The truth is that before 2017 our hiring process was crap. It wasn't diverse, inclusive, smooth for either the candidate or us and, obviously, it was no fun. We were able to hire mainly thanks to friends, employees contacts and the company's hype.
 
 Let me tell you about my first conversation with Justyna. She didn't pay much attention to the job description I carefully wrote. Instead of that she asked me basically five questions:
 * How will this role contribute to the company objectives
@@ -24,7 +24,7 @@ Let me tell you about my first conversation with Justyna. She didn't pay much at
 * What are the projects and challenges on this position? What will the candidate learn?
 * What will the candidate work on immediately after joining the team
 
-Simple. I mean, they are pretty basic questions about the job, aren't they? You probably believe you know how to accuretly answer them but you maybe it's not simple as that...
+Simple. I mean, they are pretty basic questions about the job, aren't they? You probably believe you know how to accuratly answer them but you maybe it's not simple as that...
 
 I started writing the answers to these 5 basic questions in a doc. While I tried to answer in detail I started to think about many other different aspects of the job or the offer. Without noticing I ended up designing a complete hiring process with a 25 pages document, that will last forever. Of course I relied a lot in my team. It's important that everyone shares the same goals and values about the process. In the end, the people that is hired will spend most of their time working with the rest of the team.
 
@@ -36,9 +36,9 @@ Companies tend to look for a lot of skills, specifically technical skills. You h
 
 You probably need only a few technical skills which will be related with those things that you work with every single day. I can count with one hand's fingers the technologies or tools that we work with every day at CARTO: linux in general, chef and python. This group of "requirements" can even be smaller. For example chef and python are things that the candidate will learn if she/he already has experience with similar frameworks/languages. In summary I'm confident that the only real technical requirements are experience with linux servers and coding skills. As general as that.
 
-Another thing I have learnt during the last years is that you want/need people different in your team. Different gender, different culture, different working experiences, etc.. You need people that share essentially the same values but that think differently and solve the same problems from different perspectives. That's what will make your team keep growing and innovating.
+Another thing I have learnt during the last years is that you want/need different people in your team. Different gender, different culture, different working experiences, etc.. You need people that share essentially the same values but that think differently and solve the same problems from different perspectives. That's what will make your team keep growing and innovating.
 
-In my case, the people I look for must have several soft skills like team working, hability to analyse, understand and explain things, initiative, care for detail, ownership and energy. In general I look for people that is going to be able to contribute to the team and bring something new like a different perspective, and of course, people that I would like to work with after knowing her/him.
+In my case, the people I look for must have several soft skills like team working, ability to analyse, understand and explain things, initiative, care for detail, ownership and energy. In general I look for people that is going to be able to contribute to the team and bring something new like a different perspective, and of course, people that I would like to work with after knowing her/him.
 
 
 ## Make it personal
@@ -65,9 +65,9 @@ One of the best things about writing a hiring document is that you force yoursel
 
 You realize that not everything in the job position, your team or the company is super cool. And that's ok. However, when you identify those things you have two options, remove/solve them or just be transparent about them. 
 
-Nobody's job is perfect. However there may be some unnecesarily bad things. Sometimes you don't realize about those things until you don't put yourself in the candidate's shoes and try to explain it transparently. That's a really good exercise. A hiring process design can help you identify deeply rooted problems in your organization. 
+Nobody's job is perfect. However there may be some unnecessarily bad things. Sometimes you don't realize about those things until you don't put yourself in the candidate's shoes and try to explain it transparently. That's a really good exercise. A hiring process design can help you identify deeply rooted problems in your organization. 
 
-Let me use an example. I believe you have all seen job descriptions saying things like "required hability to handle multiple simultaneous priorities". I have. It depends on the job when you see that, that's probably a smell. This is similar to when you see an apartment advertisement that says "very well illuminated basement". This probably means that there are big lamps in the apartment when what you imagine is an apartment with wide rooms with natural light. So, if you require a candidate to be able to handle multiple simultaneous priorities maybe you have a organization problem and your employees are frustrated or stressed.
+Let me use an example. I believe you have all seen job descriptions saying things like "required ability to handle multiple simultaneous priorities". I have. It depends on the job when you see that, that's probably a smell. This is similar to when you see an apartment advertisement that says "very well illuminated basement". This probably means that there are big lamps in the apartment when what you imagine is an apartment with wide rooms with natural light. So, if you require a candidate to be able to handle multiple simultaneous priorities maybe you have a organization problem and your employees are frustrated or stressed.
 
 So, don't try to hide anything in the process. If you identify something really bad try to fix it. If you cannot or there are just some parts of the job that are boring that is totally ok. But be transparent. I'm sure that for every boring or bad part that the job position has there are also several pretty good that the candidate appreciates.
 
@@ -77,7 +77,7 @@ So, don't try to hide anything in the process. If you identify something really 
 This is a controversial topic. Some people don't like to publish a salary range and some people get mad when you don't do it.
 I don't usually publish a salary range. Not because I'm trying to make a fool of the candidate or pay less money. It's because I don't know the candidate in advance and I use process to try to learn how the candidate will contribute to the team so I can finally present the best economic offer I can according to the skills seen during the interview.
 
-Said this, in the very first phone screen we describe the different salary ranges depending on the candidate skills. All the involved people in one person hiring process talk constantly to give internal feedback. We pay much attention to these conversations in case we identify, at any moment, that the candidate's expectaction may not match with what we are seeing in the process. In case this happens we tell the candidate directly that may decide to continue or not. We don't like to waste candidate's time.
+Said this, in the very first phone screen we describe the different salary ranges depending on the candidate skills. All the involved people in one person hiring process talk constantly to give internal feedback. We pay much attention to these conversations in case we identify, at any moment, that the candidate's expectation may not match with what we are seeing in the process. In case this happens we tell the candidate directly that may decide to continue or not. We don't like to waste candidate's time.
 
 So, we don't publish the salary range because unless you want a person that will contribute in a very specific way you cannot commit to a salary in advance. But I believe in being very transparent and clear during every step of the process so everyone has a nice experience.
 
@@ -86,7 +86,7 @@ So, we don't publish the salary range because unless you want a person that will
 
 First of all I believe there is much room for improvement in our current process. We pay attention to every step of every interview and ask a lot of feedback to the candidates. That way we can keep improving it. Actually, during this year, it has already had a couple of slight changes. 
 
-Very important. Although the candidates want to join your team it doesn't mean that they should do wathever needed to get the job. Nobody should need to sacrifice a goat in order to make it. They have a life. 
+Very important. Although the candidates want to join your team it doesn't mean that they should do whatever needed to get the job. Nobody should need to sacrifice a goat in order to make it. They have a life. 
 
 In the other side, your team is very busy in the day to day. You want (**you want**) your team to be fully involved in the process but you should not demand a lot of time from them. The key is to find the right balance, always focusing on effectivity. Every step of the process must serve an objective. They must be insightful. And the insights must be totally related with the required (an good to have) skills that you defined previously. If any specific step of a interview doesn't help you decide if that person is going to contribute somehow or doesn't give the candidate a better idea about what to expect in the future, probably you need to either remove o modify the step.
 
