@@ -4,7 +4,7 @@ title: Hiring humans at CARTO Infrastructure team
 status: publish
 type: post
 published: true
-date: 2017-11-13 18:00
+date: 2017-11-22 17:00
 tags: 
 - personal
 ---
@@ -112,3 +112,5 @@ Our process is not perfect and it won't ever be because everyone candidate is di
 At the same time, we always give feedback about the reasons why we decide to finish a candidate's process before the last step. 
 
 I personally can say that hiring, although well done, is exhausting. However, if well done, it's a rewarding experience. I've got to know lot of interesting people that I hope to see again in the future.
+
+By the way, besides this is something I really wanted to tell I was also extra motivated by some conversations with [Félix](https://twitter.com/flopezluis) and also by the [blog post](https://managementfromscratch.wordpress.com/2017/10/30/sobre-procesos-de-seleccion/) he wrote some time ago that you really need to read.
