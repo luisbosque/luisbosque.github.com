@@ -94,7 +94,7 @@ Our current process is something like this:
 
 * First, one person from HR has a phone screen with the candidate. It's a nice conversation focused on telling the candidate a little bit about the job position and to understand the candidate's expectations and motivations to join the team
 * We send a take home test. It's a very enclosed code test with very specific inputs and outputs. We also give direct information about what we expect to see in the code. The exercise is simple and fast to do and to review
-* We have a 1 hour conversation with the candidate when we tell in detail about the company history, our values, how we work and what type of projects we work on. We also ask the candidate to tell us something she/he's passionate about the job or about a technology or something like that
+* We have a 1 hour conversation with the candidate where we talk in detail about the company history, our values, how we work and what type of projects we work on. We also ask the candidate to tell us something she/he's passionate about the job or about a technology or something like that
 * We have a 1 hour technical interview about some linux systems scenarios where we help the candidate to debug the problem like in a role play
 * Finally we have two face to face interviews. The first one is an architecture problem also in a format of role play and the second one is a general conversation with our VP of Engineering.
 
