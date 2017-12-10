@@ -9,7 +9,9 @@ tags:
 - personal
 ---
 
-During this year at CARTO we have given a qualitative leap towards having a good hiring process. [Justyna](https://twitter.com/Justyna_Adam) joined CARTO in February, and, among many other things, she has been pushing and helping everyone to have better hiring processes.
+During this year at CARTO we have given a qualitative leap towards having a good hiring process. 
+
+[Justyna](https://twitter.com/Justyna_Adam) joined CARTO in February, and, among many other things, she has been pushing and helping everyone to have better hiring processes.
 
 I'm going to talk specifically about Infrastructure team. This year is being particularly active because of the need to grow and also because of some rotations in the team. 
 Hiring is a very exhausting process. Reviewing candidates applications, doing sourcing, interviews, technical tests reviews, etc..

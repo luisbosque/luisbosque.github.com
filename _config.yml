@@ -2,3 +2,16 @@ highlighter: rouge
 permalink: pretty
 rdiscount:
   extensions: [smart]
+plugins:
+  - jekyll-seo-tag
+title: luisico
+description: Blog of Luis Bosque, systems engineer with experience in technology and humans at scale
+url: blog.luisico.net
+twitter:
+  username: luisico
+social:
+  name: Luis Bosque
+  links:
+    - https://www.linkedin.com/in/luisbosque
+    - https://github.com/luisbosque
+    - https://twitter.com/luisico
