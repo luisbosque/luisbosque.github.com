@@ -17,4 +17,4 @@ meta:
 En varias ocasiones he necesitado tener un diagrama con el que de un vistazo pudiera ver claro el flujo de los paquetes a través de las diferentes cadenas de iptables.
 El otro día me encontré con uno en un <a href="http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch14_:_Linux_Firewalls_Using_iptables">capítulo</a> de <a href="http://www.linuxhomenetworking.com/">linuxhomenetworking</a>, que a pesar de no dar todos los detalles de cada paso, resulta totalmente claro y fácil de entender.
 
-<img src="{{ "/images/Iptables.gif" | absolute_url }}" alt="Diagrama de flujo de iptables" />
+<img src="{{ "/images/Iptables.gif" }}" alt="Diagrama de flujo de iptables" />
