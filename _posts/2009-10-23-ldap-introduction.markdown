@@ -15,7 +15,7 @@ meta:
 
 This is the first post of a <a href="http://www.ietf.org/rfc/rfc2251.txt">LDAP</a> posts collection where I'll try to explain all what I learned about this technology for the last years.
 
-###What is LDAP?
+## What is LDAP?
 LDAP stands for <em>Lightweight Directory Access Protocol</em>.
 LDAP <strong>is not</strong> a database
 LDAP <strong>is</strong> A protocol to handle information from a Database
@@ -29,13 +29,13 @@ In the picture we can see that the email server doesn't know the physical databa
 
 LDAP is extremely fast reading and searching information in the database. This is because the elements in a LDAP directory are arranged in a hierarchical tree, so searches are made always downwards. Because of that, LDAP is widely used as an authentication backend for all kind of services, specially the ones with a big amount of users. Write operations are not so fast, but in this kind of applications, users are used to read their personal information from the database, but not to change it.
 
-#### Data types
+## Data types
 In spite of being a hierarchical tree, all elements in the tree are equal. An element has one or more objeClasses that define the element purpose. Every objectclass has one or more required attributes and one or more optional attributes. So, in the end, an element belongs to one or more objectClasses and has one or more attributes depending on the objectClasses it belongs to.
 For example, en element representing a person has the <em>person</em> objectClass. So, this element is required to define the attributes <em>sn</em> (surname) and <em>cn</em> (commonName). But at the same time it could have, if it wants it to, the <em>telephoneNumber</em> attribute.
 
 There are a lot of schemas that let the chance to load any kind of data in the tree. You can also create your own schema if there's not any schema that satisfies your needs.
 
-#### Structure
+## Structure
 Like I said before, a LDAP directory is built with different kinds of elements arranged in a hierarchical tree structure. All the elements have a DN (Distinguished Name) that is an their identity inside the directory. An element DN is built with their own RDN (Relative Distinguished Name) and the RDN of the parent elements to the top element of the tree. This seems a bit confused, so let's explain it better. Let's see a small picture:
 
 <img src="{{ "/images/ldap_diagram2.png" | absolute_url }}" alt="ldap_diagram2" title="ldap_diagram2" width="159" height="184" class="alignleft size-full wp-image-323" style="border:none; margin-right: 15px;" />
@@ -59,13 +59,13 @@ We can see a bigger example of a LDAP directory tree. This is onle an example. I
 
 <img src="{{ "/images/ldap_diagram.png" | absolute_url }}" alt="ldap_diagram" title="ldap_diagram" width="726" height="530" class="aligncenter size-full wp-image-330" style="border:none;"/>
 
-#### LDAP Implementations
+## LDAP Implementations
 There are a lot of servers implementing the LDAP protocol. <a href="http://www.openldap.org/">OpenLDAP</a>, <a href="http://en.wikipedia.org/wiki/Active_Directory">Active Directory</a>, <a href="http://www.sun.com/software/products/directory_srvr_ee/dir_srvr/index.xml">Sun ONE Directory Server</a>, <a href="http://www.novell.com/products/edirectory/">Novell Directory Server</a>, <a href="http://www.redhat.com/directory_server/">Red Hat Directory Server</a>, etc...
 
 I already worked with some of them but I'm used to work with OpenLDAP, so, in the next posts I will focus on OpenLDAP.
 When you install OpenLDAP, in a Linux machine for example, it creates a simple BDB database with a few example data. S
 
-#### Database Backends
+## Database Backends
 There are also several available database backends to use with OpenLDAP like <a href="http://en.wikipedia.org/wiki/Berkeley_DB">BDB</a>, HDB, <a href="http://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format">LDIF</a>, etc..
 When installing OpenLDAP, the server uses a BDB Database. It happens transparently to the user. So, the people that have just met LDAP don't need to care about the difference between protocol and database. 
 
