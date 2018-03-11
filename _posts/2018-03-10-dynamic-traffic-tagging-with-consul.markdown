@@ -75,7 +75,7 @@ These are the domains you will use to send requests to your proxy.
 Your consul server is supposed to be running now. If you take a look to the members of the consul cluster you should only see this node:
 
 {% highlight bash %}
-# consul members
+$ consul members
 Node           Address          Status  Type    Build  Protocol  DC               Segment
 cns01.dc1.lan  10.0.3.123:8301  alive   server  1.0.1  2         localdatacenter  <all>
 {% endhighlight %}
@@ -91,22 +91,22 @@ Assuming your consul agent is already running too in these two servers, you can 
 Only theirselves appear in their own members list. We need to [join](https://www.consul.io/docs/commands/join.html) these nodes to the cluster. In this case let's join each of them to the consul server:
 
 {% highlight bash %}
-# hostname
+$ hostname
 web01.dc1.lan
-# consul join 10.0.3.123
+$ consul join 10.0.3.123
 Successfully joined cluster by contacting 1 nodes.
-# consul members
+$ consul members
 Node           Address          Status  Type    Build  Protocol  DC               Segment
 cns01.dc1.lan  10.0.3.123:8301  alive   server  1.0.1  2         localdatacenter  <all>
 web01.dc1.lan  10.0.3.231:8301  alive   client  1.0.1  2         localdatacenter  <default>
 {% endhighlight %}
 
 {% highlight bash %}
-# hostname
+$ hostname
 web02.dc1.lan
-# consul join 10.0.3.123
+$ consul join 10.0.3.123
 Successfully joined cluster by contacting 1 nodes.
-# consul members
+$ consul members
 Node           Address          Status  Type    Build  Protocol  DC               Segment
 cns01.dc1.lan  10.0.3.123:8301  alive   server  1.0.1  2         localdatacenter  <all>
 web01.dc1.lan  10.0.3.231:8301  alive   client  1.0.1  2         localdatacenter  <default>
@@ -154,7 +154,7 @@ Ok, let's add a new service in consul. This is as simple as adding a new json co
 Add this config in both web0x nodes. Then reload consul:
 
 {% highlight bash %}
-# consul reload
+$ consul reload
 Configuration reload triggered
 {% endhighlight %}
 
@@ -174,7 +174,7 @@ Oh yeah!
 Now, let's see what nodes in the cluster have this service running:
 
 {% highlight bash %}
-# consul catalog nodes -service=backend-web
+$ consul catalog nodes -service=backend-web
 Node           ID        Address     DC
 web01.dc1.lan  464efb7d  10.0.3.231  localdatacenter
 web02.dc1.lan  266a02b6  10.0.3.174  localdatacenter
@@ -295,7 +295,7 @@ After that it will generate a host-to-upstream-group list with all the domains f
 
 We can render this template with something like this:
 {% highlight bash %}
-# consul-template -template "/etc/nginx/sites-available/upstreams.ctmpl:/etc/nginx/sites-enabled/upstreams:systemctl reload nginx"
+$ consul-template -template "/etc/nginx/sites-available/upstreams.ctmpl:/etc/nginx/sites-enabled/upstreams:systemctl reload nginx"
 {% endhighlight %}
 
 Note that consul-template will keep running undefinitely watching for changes in all the elements described in the template, triggering the template rendering and reloading nginx over and over again.
