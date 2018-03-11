@@ -26,6 +26,8 @@ The code is hosted in github. There you can rea the README file to more informat
 
 You can also clone directly the repository and see the README with your favourite editor:
 
-<pre>git clone git://github.com/luisbosque/simple_vacation.git</pre>
+{% highlight bash %}
+git clone git://github.com/luisbosque/simple_vacation.git
+{% endhighlight %}
 
 It would be great to have any kind of feedback that helps me to improve the code. Of course you can contact me for any kind of doubt or comment.

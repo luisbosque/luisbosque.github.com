@@ -6,7 +6,9 @@ type: post
 published: true
 date: 2017-11-22 17:00
 tags: 
-- personal
+- hiring
+- humans
+- teams
 ---
 
 During this year at CARTO we have given a qualitative leap towards having a good hiring process. 

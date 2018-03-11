@@ -21,7 +21,7 @@ LDAP <strong>is not</strong> a database
 LDAP <strong>is</strong> A protocol to handle information from a Database
 One of the most common applications of LDAP is as an authentication backend for an email server. Next, we can see an example:
 
-<a href="http://blog.luisbosque.com/wp-content/uploads/2009/10/flujo_ldap_correo.png"><img src="http://blog.luisbosque.com/wp-content/uploads/2009/10/flujo_ldap_correo-650x168.png" alt="flujo_ldap_correo" title="flujo_ldap_correo" width="650" height="168" class="aligncenter size-medium wp-image-338" style="border:none;" /></a>
+<img src="{{ "/images/flujo_ldap_correo.png" | absolute_url }}" alt="flujo_ldap_correo" title="flujo_ldap_correo" width="650" height="168" class="aligncenter size-medium wp-image-338" style="border:none;" />
 
 In this picture a happy user tries to check his email from his personal computer. So he sends his login information to the email server. The email server fetches this data and starts talking with the LDAP server. The LDAP server contains all the users information, so if the login information that it is receiving from the mail server matches the information of any user in its database, it is going to return a positive answer to the email server. At this point, the email server knows that the user sent a valid login information, so it will send him his new emails.
 
@@ -38,7 +38,7 @@ There are a lot of schemas that let the chance to load any kind of data in the t
 #### Structure
 Like I said before, a LDAP directory is built with different kinds of elements arranged in a hierarchical tree structure. All the elements have a DN (Distinguished Name) that is an their identity inside the directory. An element DN is built with their own RDN (Relative Distinguished Name) and the RDN of the parent elements to the top element of the tree. This seems a bit confused, so let's explain it better. Let's see a small picture:
 
-<a href="http://blog.luisbosque.com/wp-content/uploads/2009/10/ldap_diagram2.png"><img src="http://blog.luisbosque.com/wp-content/uploads/2009/10/ldap_diagram2.png" alt="ldap_diagram2" title="ldap_diagram2" width="159" height="184" class="alignleft size-full wp-image-323" style="border:none; margin-right: 15px;" /></a>
+<img src="{{ "/images/ldap_diagram2.png" | absolute_url }}" alt="ldap_diagram2" title="ldap_diagram2" width="159" height="184" class="alignleft size-full wp-image-323" style="border:none; margin-right: 15px;" />
 
 This is our directory tree. Let's suppose that I want this directory to authenticate all of the example.com domain users.
 Usually when the top element of a tree is a domain, all the parts of the domain name are stored in separated elements. So, <em>com</em> and <em>example</em> are stored in different elements but following the same order.
@@ -57,7 +57,7 @@ So, this element RDN is "cn=Luis" and its DN is "cn=Luis,ou=People,dc=example,dc
 
 We can see a bigger example of a LDAP directory tree. This is onle an example. I mean that you can use a LDAP directory to store any kind of information, not only people information. With the right schemas, you can use a directory to create any kind of data structure.
 
-<a href="http://blog.luisbosque.com/wp-content/uploads/2009/10/ldap_diagram.png"><img src="http://blog.luisbosque.com/wp-content/uploads/2009/10/ldap_diagram.png" alt="ldap_diagram" title="ldap_diagram" width="726" height="530" class="aligncenter size-full wp-image-330" style="border:none;"/></a>
+<img src="{{ "/images/ldap_diagram.png" | absolute_url }}" alt="ldap_diagram" title="ldap_diagram" width="726" height="530" class="aligncenter size-full wp-image-330" style="border:none;"/>
 
 #### LDAP Implementations
 There are a lot of servers implementing the LDAP protocol. <a href="http://www.openldap.org/">OpenLDAP</a>, <a href="http://en.wikipedia.org/wiki/Active_Directory">Active Directory</a>, <a href="http://www.sun.com/software/products/directory_srvr_ee/dir_srvr/index.xml">Sun ONE Directory Server</a>, <a href="http://www.novell.com/products/edirectory/">Novell Directory Server</a>, <a href="http://www.redhat.com/directory_server/">Red Hat Directory Server</a>, etc...
