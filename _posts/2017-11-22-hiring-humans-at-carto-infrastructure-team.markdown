@@ -34,7 +34,7 @@ I started writing the answers to these 5 basic questions in a doc. While I tried
 
 These are, for me, the keys of a good hiring process.
 
-## Have a very clear idea about the skills you look for
+### Have a very clear idea about the skills you look for
 
 Companies tend to look for a lot of skills, specifically technical skills. You have probably seen job descriptions with a never-ending list of technical requirements (postgresql, docker, nginx, chef, ansible, python, ruby, bash, etc..). **Spoiler: this is bullshit**. Unless new hires are going to perform always a very specific set of tasks (which in small/mid companies is not usually the reality) you don't need so much detail (and so many skills). Also, a person that knows so many things, probably doesn't know any.
 
@@ -45,7 +45,7 @@ Another thing I have learnt during the last years is that you want/need differen
 In my case, the people I look for must have several soft skills like team working, ability to analyse, understand and explain things, initiative, care for detail, ownership and energy. In general I look for people that is going to be able to contribute to the team and bring something new like a different perspective, and of course, people that I would like to work with after knowing her/him.
 
 
-## Make it personal
+### Make it personal
 
 We are hiring people, not cattle. I firmly believe in quality over quantity, no matter how much work you have. Spend time on learning about the candidate. Don't shoot everyone you see on linkedin and, for god's sake, don't send automated emails. Don't do it. Don't.
 
@@ -54,7 +54,7 @@ If you are sourcing you must be excited about knowing every candidate you decide
 This is not a common practice, to be honest. Most recruiters either send an automated email or they stick to a keyword they saw in your linkedin profile. It's a lose of time and generates frustration and also distrust towards the recruiters in general. Don't be that recruiter, please.
 
 
-## Simple, reproducible and inclusive
+### Simple, reproducible and inclusive
 
 It's important that you evaluate all candidates based on the same topics. Although I don't believe on having lots of technical requirements I need to be able to evaluate the candidate tech skills. We have interviews and technical tests (I will talk about them later). 
 
@@ -63,7 +63,7 @@ When your company grows you realize that you are not able to keep hiring only fr
 Just try to be transparent with the candidate and show your support and will to help (or even adapt) during this individual process
 
 
-## Full transparency
+### Full transparency
 
 One of the best things about writing a hiring document is that you force yourself to write every detail about what you are looking for, how the process will be and what exactly the candidate should expect when joining your team.
 
@@ -76,7 +76,7 @@ Let me use an example. I believe you have all seen job descriptions saying thing
 So, don't try to hide anything in the process. If you identify something really bad try to fix it. If you cannot or there are just some parts of the job that are boring that is totally ok. But be transparent. I'm sure that for every boring or bad part that the job position has there are also several pretty good that the candidate appreciates.
 
 
-## Salary range
+### Salary range
 
 This is a controversial topic. Some people don't like to publish a salary range and some people get mad when you don't do it.
 I don't usually publish a salary range. Not because I'm trying to make a fool of the candidate or pay less money. It's because I don't know the candidate in advance and I use process to try to learn how the candidate will contribute to the team so I can finally present the best economic offer I can according to the skills seen during the interview.
@@ -86,7 +86,7 @@ Said this, in the very first phone screen we describe the different salary range
 So, we don't publish the salary range because unless you want a person that will contribute in a very specific way you cannot commit to a salary in advance. But I believe in being very transparent and clear during every step of the process so everyone has a nice experience.
 
 
-## The current process
+### The current process
 
 First of all I believe there is much room for improvement in our current process. We pay attention to every step of every interview and ask a lot of feedback to the candidates. That way we can keep improving it. Actually, during this year, it has already had a couple of slight changes. 
 
@@ -107,7 +107,7 @@ During the first phone screen our recruiter explains how the entire process will
 Everybody likes numbers. During the first months, this new hiring process, took more or less 11h (for every candidate) to us and, at the very least, 11h to the candidate. After several improvements, now it takes around 4.5h to us and 5h to the candidate. Not perfect. But we are working on it.
 
 
-## The feedback
+### The feedback
 
 When you design a hiring process you design for people. Candidates will meet a lot of companies and companies will meet a lot of candidates. Most of the times there won't be a match, for any reason. You must expect that everyone has a nice (and, if possible, rewarding) experience.
 
