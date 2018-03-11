@@ -295,7 +295,7 @@ After that it will generate a host-to-upstream-group list with all the domains f
 
 We can render this template with something like this:
 {% highlight bash %}
-consul-template -template "/etc/nginx/sites-available/upstreams.ctmpl:/etc/nginx/sites-enabled/upstreams:systemctl reload nginx"
+# consul-template -template "/etc/nginx/sites-available/upstreams.ctmpl:/etc/nginx/sites-enabled/upstreams:systemctl reload nginx"
 {% endhighlight %}
 
 Note that consul-template will keep running undefinitely watching for changes in all the elements described in the template, triggering the template rendering and reloading nginx over and over again.

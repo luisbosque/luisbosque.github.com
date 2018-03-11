@@ -258,3 +258,7 @@ pre {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+
+code.highlighter-rouge {
+  background-color: #f5f5f5;
+}
