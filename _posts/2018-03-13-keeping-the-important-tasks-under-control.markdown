@@ -29,7 +29,7 @@ I bought this gorgeous and grabbed a good (but simple) pen. I've always preferre
 <img src="{{ "/images/notebook-blank.jpg" }}" alt="notebook_blank" title="notebook_blank" width="700" height="500" class="aligncenter" style="border:none;" />
 
 
-The thing is that I don't use it as a bullet journal. I use it just as a list of items that I need to complete eventually and brief notes that I write down after meetings or talks. It's a simple method and these are the rules I apply:
+The thing is that I don't use it as a bullet journal. I use it just to put a list of items that I need to complete eventually and to take some brief notes after meetings or talks. It's a simple method and these are the rules I apply:
 
 * Every time I finish working on something I rapidly look at the notebook. I spend 5 seconds on scanning pending things and choose what to work on next
 * I don't write exactly when I need to do a task. That's something I can remind when I look at the pending items. If I really need to work on a task during a specific day (which doesn't usually happen) I reserve some working time or a reminder in my calendar. Besides writing it down in the notebook
