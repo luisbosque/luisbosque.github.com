@@ -41,7 +41,7 @@ This is more or less how it looks:
 
 <img src="{{ "/images/notebook-written.jpg" }}" alt="notebook_written" title="notebook_written" width="700" height="500" class="aligncenter" style="border:none;" />
 
-I also take sometimes notes during meetings or talks. I allow myself, though, to be flexible about how I write down things that are not tasks.
+Sometimes I also take notes during meetings or talks. I allow myself, though, to be flexible about how I write down things that are not tasks.
 
 The notebook is, for me, a way to reduce cognitive load. We can call it a brain dump. I don't need to remember everything all the time. I know that if it's really important I will read it on the notebook and since I adopt the routine to read it every time that I finish something, I know that the task will be eventually completed.
 
