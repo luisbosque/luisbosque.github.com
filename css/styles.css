@@ -262,3 +262,8 @@ pre {
 code.highlighter-rouge {
   background-color: #f5f5f5;
 }
+
+img.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
