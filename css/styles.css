@@ -266,4 +266,5 @@ code.highlighter-rouge {
 img.aligncenter {
   display: block;
   margin: 0 auto;
+  border: 2px solid #2F4F4F;
 }
