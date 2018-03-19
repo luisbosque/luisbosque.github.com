@@ -26,7 +26,7 @@ One of the things I read about, that was becoming popular at the time, was the [
 
 I bought this gorgeous and grabbed a good (but simple) pen. I've always preferred squared pages notebooks than totally blank. This one has a nice in-the-middle approach. It has kind of a grid.
 
-<img src="{{ "/images/notebook-blank.jpg" }}" alt="notebook_blank" title="notebook_blank" width="700" height="500" class="aligncenter" style="border:none;" />
+<img src="{{ "/images/notebook-blank.jpg" }}" alt="notebook_blank" title="notebook_blank" width="700" height="500" class="aligncenter" />
 
 
 The thing is that I don't use it as a bullet journal. I use it just to put a list of items that I need to complete eventually and to take some brief notes after meetings or talks. It's a simple method and these are the rules I apply:
@@ -39,7 +39,7 @@ The thing is that I don't use it as a bullet journal. I use it just to put a lis
 
 This is more or less how it looks:
 
-<img src="{{ "/images/notebook-written.jpg" }}" alt="notebook_written" title="notebook_written" width="700" height="500" class="aligncenter" style="border:none;" />
+<img src="{{ "/images/notebook-written.jpg" }}" alt="notebook_written" title="notebook_written" width="700" height="500" class="aligncenter" />
 
 Sometimes I also take notes during meetings or talks. I allow myself, though, to be flexible about how I write down things that are not tasks.
 
