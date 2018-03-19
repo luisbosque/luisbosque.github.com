@@ -22,7 +22,7 @@ When I realized I needed a better way to take notes and write down some TODO thi
 
 ### The tool
 
-One of the things I read about, that was becoming popular at the time, was the bullet journal. Bullet journal tries to cover almost everything related to self-organization within a notebook. TODO list, tasks scheduling, notes, etc.. It's a powerful system but extremely complex for my needs. However, by making it stupid simple it could work for me.
+One of the things I read about, that was becoming popular at the time, was the [bullet journal](http://bulletjournal.com/). Bullet journal tries to cover almost everything related to self-organization within a notebook. TODO list, tasks scheduling, notes, etc.. It's a powerful system but extremely complex for my needs. However, by making it stupid simple it could work for me.
 
 I bought this gorgeous and grabbed a good (but simple) pen. I've always preferred squared pages notebooks than totally blank. This one has a nice in-the-middle approach. It has kind of a grid.
 
