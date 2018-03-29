@@ -13,7 +13,7 @@ tags:
 I tend to forget things. The more things I have to do, the more things I forget. Daily stress probably makes also an impact on the ability to retain things. Besides that, I'm a pretty anxious person. Not at the point of having a disorder, but it surely has a word or two to say in my routine.
 In summary, I like to have things under control without leaving the urge to do everything immediately win.
 
-My daily tasks at works come from very different contexts. Some of them are issues or projects related. Some tasks are planned within a roadmap and some are just part of a backlog. They can also be classified as those that come from meetings, issues, or other kind of team work and those that I proactively think about in order to improve the team, the company and the technology. These tasks, as head of a department, are key to my role.
+My daily tasks at work come from very different contexts. Some of them are issues or projects related. Some tasks are planned within a roadmap and some are just part of a backlog. They can also be classified as those that come from meetings, issues, or other kind of team work and those that I proactively think about in order to improve the team, the company and the technology. These tasks, as head of a department, are key to my role.
 
 I don't know about other companies or people out there but there's a constant noise at work. Constant notifications, emails, fires and change of contexts are happening all the time. Focusing is hard if you don't have a method to identify the important.
 
