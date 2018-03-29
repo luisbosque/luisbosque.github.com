@@ -52,7 +52,7 @@ It also gives me mental relief. Every time I turn the page I review the pending 
 This method leaves a lot of things out. Things that I've not prioritized. I usually take one of three possible options:
 
 * **Create a procedure**. For example, review once per day all the emails or new PRs in some repositories. Or maybe I can schedule some time once per month to analyze some metrics, etc..
-* **Delegate**. Some tasks can be delegated to other people. They will probably even do them better. Once that you learn to do it (although it takes a lot) it's easier and you feel a tremendous relief
+* **Delegate**. Some tasks can be delegated to other people. They will even do these tasks better than you. Once you learn to do it (although it takes a lot) it's easier and you feel a tremendous relief
 * **Ignore**. If it's not worth it to appear in the notebook, to create a procedure or to delegate it's probably not so important. This task will likely extinguish itself or will re-appear again with higher priority
 
 ### Don't forget
