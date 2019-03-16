@@ -16,13 +16,13 @@ Some days ago I complained about standard ORMs in twitter. My complains were sup
 
 First of all I need to admit that I use standard ORM's at work (at home I try to do write my own object mappers). However, using them doesn't mean that I'm blind and not able to see important problems about them.
 
-I can start with what, in my opinion, standard ORMs are good for: (notice that I'm always using the word 'standard')  
+I can start with what, in my opinion, standard ORMs are good for (notice that I'm always using the word 'standard'):
 
-* They are good for prototyping
-* They are good for simple applications
-* They are good for simple infrastructure environments
-* They are good for environments where the level of performance is not critical or the amount of backend hits it's not extremely high
-* They are good for applications where you don't really care about of none of the previous points
+- They are good for prototyping
+- They are good for simple applications
+- They are good for simple infrastructure environments
+- They are good for environments where the level of performance is not critical or the amount of backend hits it's not extremely high
+- They are good for applications where you don't really care about of none of the previous points
 
 A brief explanation about ORMs to help with the missing context.
 ORM = Object-Relational Mapping. As I understand, this is a technique to map application objects with relational databases types.

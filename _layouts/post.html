@@ -6,7 +6,9 @@ layout: base
     <h2>{{ page.title }}</h2>
     <span class="date">{{ page.date | date_to_string }}</span>
   </div>
-  {{ content }}
+  <div class="post-content">
+    {{ content }}
+  </div>
 </div>
 
 <div id=tags>
