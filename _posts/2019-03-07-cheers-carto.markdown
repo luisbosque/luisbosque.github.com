@@ -31,11 +31,8 @@ BTW, talking about hiring, some thoughts I tweeted the other day (sorry it's in 
 And also some things that, although they may seem obvious, I would like to highlight.
 
 - There's not such a thing as doers vs thinkers. If you are not both, get the fuck out of here. Circling around a problem without rolling up the sleeves and solve it does not help. At the same time, we don't pause enough to think. Trying to solve a problem without analyzing why or what we try to answer is a recipe for failure. So, focus on solving things, but think first why it needs solving.
-
 - Don't be afraid of changes. Even less if you work in a startup. In a startup either you adapt or die. Not only you should not be afraid of changes. You should embrace them. Obviously, again, I'm talking about changes that make sense. Don't get mad either.
-
 - The moment you stop working as a team, you are horribly fucked. I don't think this needs further explanation, but let me say that silos exist and we usually get used very quickly to them. They may do more harm than good so handle them carefully.
-
 - Cut the bullshit. A very transparent environment without zero-bullshit is refreshing. And more agile (see what I just did?). 
 
 I'm grateful to many people for their help and for everything I've learned from them. People are a crucial part of this deal. This is something I wrote in my internal goodbye email:
