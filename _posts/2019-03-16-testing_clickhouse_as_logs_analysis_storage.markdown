@@ -56,7 +56,22 @@ The Clickhouse configuration I'm using is the default one.
 I've created a MergeTree table in Clickhouse to store the logs. The table is partitioned with the datetimes and the vhost, but this is obviously one of the parts of the experiment that should be adapted depending on each particular case.
 
 {% highlight sql %}
-CREATE TABLE grafana.events_vhost ( logdate Date,  logdatetime DateTime,  clientip String,  url String,  verb String,  response Int32,  bytes Int32,  vhost String,  ident String,  response_time Float32,  referrer String,  agent String) ENGINE = MergeTree(logdate, (logdate, vhost), 8192)
+CREATE TABLE grafana.events_vhost
+(
+    logdate Date, 
+    logdatetime DateTime, 
+    clientip String, 
+    url String, 
+    verb String, 
+    response Int32, 
+    bytes Int32, 
+    vhost String, 
+    ident String, 
+    response_time Float32, 
+    referrer String, 
+    agent String
+)
+ENGINE = MergeTree(logdate, (logdate, vhost), 8192)
 {% endhighlight %}
 
 The Logstash plugin inserts the output with the format [JSONEachRow](https://clickhouse.yandex/docs/en/interfaces/formats/#jsoneachrow).
