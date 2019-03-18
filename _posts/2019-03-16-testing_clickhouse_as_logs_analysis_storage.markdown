@@ -11,19 +11,19 @@ tags:
 
 ELK is one of the most popular combined solutions for logs processing. However, after running Elasticsearch in production for several years, these are the pains I've felt:
 
-* It's a complex piece of technology. Also, documentation about internals is not always clear. In general, it requires experts to make the right steps and to try to understand problems and limitations
+* It's a complex piece of technology. Also, documentation about internals is not always clear. In general, it requires deep expertise to make the right steps and to try to understand some problems and limitations
 * Although it provides all the tools needed to scale, sharding, etc.., doing it is far from straightforward, which makes debugging and troubleshooting hard when in front of a capacity problem or any other blocking issue
 * Unless much efforts are spent on configuring and maintaining the indexes, mappings, etc.. its performance isn't good when compared with the resources usage. This makes it a costly solution
 
 In my opinion, the reasons why it's a popular option for logs-processing are:
 
-* The default installation and configuration are straightforward. You can have it running very easily
+* The default installation and configuration are straightforward. You can have the service running very easily
 * It's part of a well-crafted log processing ecosystem, together with Logstash and Kibana
-* Because of its document-oriented database nature it's very flexible if your logs schema change frequently (changes in "fields")
+* Because of its document-oriented database nature it's very flexible, specially if your logs schema change frequently (changes in "fields")
 
-It's an excellent technology for this use case if you are starting and you need to be fast. Also, if your platform is not very demanding, it's probably ok for you not to spend much time on configuration. 
+It's an excellent technology for this use case if you want something fast that works. Also, if your platform is not very demanding, it's probably ok for you not to spend much time on configuration. 
 
-However, if logs-processing is not your business core, you can't probably invest many resources on acquiring expertise on the technology which makes it a trap. Additionally, if the way you process the logs and the information you store don't change frequently, you won't be taking all the advantages of Elasticsearch.
+However, when the volume of logs is high but if logs-processing is not your business core, you can't probably invest many resources on acquiring expertise on the technology which makes it a trap. Additionally, if the way you process the logs and the information you store don't change frequently, you won't be taking all the advantages of Elasticsearch.
 
 If you have worked with modern SQL databases you probably know that is few things you cannot do in terms of data queries, aggregations, mathematical functions, etc.. Clickhouse is a SQL database which is great especially if you want to process, store and query temporal events. It's Unix friendly and easy to manage and scale. I wanted to do this PoC to understand if it would make sense to try to replace Elasticsearch with Clickhouse for the use case of log-processing and what would be the trade-offs.
 
