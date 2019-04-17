@@ -19,7 +19,7 @@ In the end, I want to make sure that the right people join the team. Because of 
 
 It may seem I'm an expert in the matter. The truth is that before 2017 our hiring process was crap. It wasn't diverse, inclusive, smooth for either the candidate or us and, obviously, it was no fun. We were able to hire mainly thanks to friends, employees contacts and the company's hype.
 
-I was about to publish a job offer when [Justyna](https://twitter.com/Justyna_Adam) joined CARTO. She, among many other things, has been pushing and helping everyone to have better hiring processes. During the first conversation we had about it she didn't pay much attention to the job description I carefully wrote. Instead of that, she asked me basically five questions:
+I was about to publish a job offer when [Justyna](https://twitter.com/Justyna_Adam) joined CARTO. She, among many other things, has been pushing and helping everyone to have better hiring processes. During the first conversation we had about this job position she barely payed attention to the job offer I had carefully written. Instead of that, she asked me basically five questions:
 * How will this role contribute to the company objectives
 * Why the candidate should work with my team and me
 * How will this role be evaluated
