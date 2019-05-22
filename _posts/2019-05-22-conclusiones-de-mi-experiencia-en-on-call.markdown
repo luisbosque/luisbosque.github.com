@@ -11,7 +11,7 @@ tags:
 
 Durante más de 10 años he participado en rotaciones de on-call en varias empresas distintas. La misión, siempre, asegurar que uno o varios servicios web funcionan según lo esperado.
 
-Hay muchos enfoques de on-call dependiendo de los tipos de servicios, del tamaño de la empresa, de la organización del equipo técnico, del SLA, etc... Yo he trabajado casi siempre con rotaciones de 1 semana 24x7 en el que había una única persona del equipo de ingeniera en on-call.
+Hay muchos enfoques de on-call dependiendo de los tipos de servicios, del tamaño de la empresa, de la organización del equipo técnico, del SLA, etc... Yo he trabajado casi siempre con rotaciones de una semana, 24x7, en el que había una única persona del equipo de ingeniera en on-call.
 
 Esto quiere decir que durante esa semana, en cualquier momento puedes recibir una alerta en el pager (hoy en día tu teléfono móvil) y tienes que ser capaz de investigar la alerta y hacer lo posible para que el servicio funcione correctamente.
 
