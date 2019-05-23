@@ -33,7 +33,7 @@ Tu core de negocio son los servicios que tu desarrollas y que ofreces a tus clie
 
 Hay pocas empresas (decentes) que se dedican a esto y no han evolucionado en años porque apenas tienen competencia, pero al menos hacen el trabajo bien. Intégrate con ellos y paga por estar tranquilo.
 
-### Monta una estrategia clara
+### Prepara una estrategia clara
 
 He visto auténticas barbaridades de estrategias de on-call por ahí. En cuanto a complejidad innecesaria, remuneración absurda, gente no preparada, etc.. No hay una estrategia única para todos. Depende de cada empresa, pero montes lo que montes que esté clarinete y que todo el mundo lo entienda y lo acepte. Como la gente esté cabreada o confusa antes de empezar, imagínate cuando un día el pager le despierte 3 veces por la noche.
 
@@ -51,7 +51,7 @@ La mayor parte de las alertas son similares. Obviamente, cuando una misma alerta
 
 <img src="{{ "/images/this-is-fine.png" }}" alt="This is fine - KC Green" title="KC Green" width="600" height="300" class="aligncenter" style="border:none;"/>
 
-### Para para pensar durante el fuego
+### Párate a pensar durante el fuego
 
 Obviamente, cuanto más conoces tu plataforma y más te enfrentas a fuegos, más desarrollas esa intuición de por donde van los tiros y menos "piensas" en cómo atacar el problema. Pero siempre habrá problemas que no veas tan claro desde el primer momento. Aquí, para para pensar. No te aceleres. Por grande que sea el fuego, dedica los primeros minutos a entender bien qué ocurre, a quién afecta, cuáles son las consecuencias y cómo lo puedes reproducir. Sin todo esto vas a terminar tomando decisiones aleatorias que además no vas a saber argumentar. Respira hondo, piensa y ponte en marcha.
 
