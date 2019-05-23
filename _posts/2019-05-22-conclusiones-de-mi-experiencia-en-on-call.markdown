@@ -35,7 +35,7 @@ Hay pocas empresas (decentes) que se dedican a esto y no han evolucionado en añ
 
 ### Prepara una estrategia clara
 
-He visto auténticas barbaridades de estrategias de on-call por ahí. En cuanto a complejidad innecesaria, remuneración absurda, gente no preparada, etc.. No hay una estrategia única para todos. Depende de cada empresa, pero montes lo que montes que esté clarinete y que todo el mundo lo entienda y lo acepte. Como la gente esté cabreada o confusa antes de empezar, imagínate cuando un día el pager le despierte 3 veces por la noche.
+He visto auténticas barbaridades de estrategias de on-call por ahí. En cuanto a complejidad innecesaria, remuneración absurda, falta de training o de herramientas, gente no preparada, etc.. No hay una estrategia única para todos. Depende de cada empresa, pero montes lo que montes que esté clarinete y que todo el mundo lo entienda y lo acepte. Como la gente esté cabreada o confusa antes de empezar, imagínate cuando un día el pager le despierte 3 veces por la noche.
 
 Cómo deberías pagar? Pues insisto, depende de cada empresa. Pero una cosa es cierta, lo que estás pagando es por la disponibilidad y la capacidad de resolver. Si luego pagas por alerta recibida te vas a encontrar con todas las trampas del mundo. La gente de on-call está haciendo concesiones en su tiempo libre por estar pendiente. Así que págales todo el tiempo que estén haciendo esas concesiones. Luego si hace falta puedes poner diferentes tipos de extras encima de eso, dependiendo de las circunstancias. Pero la base paga por la disponibilidad.
 
