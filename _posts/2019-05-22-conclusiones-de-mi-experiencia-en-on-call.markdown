@@ -31,7 +31,7 @@ Esa disciplina aquí es importante porque todo por la noche va a ser más lento 
 
 Tu core de negocio son los servicios que tu desarrollas y que ofreces a tus clientes. Céntrate en hacer eso lo mejor posible. Monitorizar los servicios generalmente no es parte de ese core de negocio y que las notificaciones push, sms y llamadas lleguen al móvil de on-call menos todavía. Habrá momentos que pienses que tú lo puedes hacer mejor y más barato que otros. No te flipes, no es trivial. Como falle lo más mínimo y pase algo en tu plataforma, no te vas a enterar. Se enteraran antes tus clientes. 
 
-Hay pocas empresas (decentes) que se dedican a esto y no han evolucionado en años porque apenas tienen competencia, pero al menos hacen el trabajo bien. Intégrate con ellos y paga por estar tranquilo.
+Hay pocas empresas (decentes) que se dedican, por ejemplo, a la parte de "incident response" y además no han evolucionado en años porque apenas tienen competencia, pero al menos hacen bien el trabajo. Intégrate con sus servicios y paga por estar tranquilo.
 
 ### Prepara una estrategia clara
 
