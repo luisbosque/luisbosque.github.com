@@ -4,7 +4,8 @@ layout: base
 <div id=post>
   <div class="post-header">
     <h2>{{ page.title }}</h2>
-    <span class="date">{{ page.date | date_to_string }}</span>
+    <span class="date">{{ page.date | date_to_string }}</span> | 
+    <span>{% include reading-time.html %}</span>
   </div>
   <div class="post-content">
     {{ content }}

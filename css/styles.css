@@ -288,3 +288,7 @@ blockquote p:before, blockquote p:after {
   content: "\201C";
   color: #4d91b3;
 }
+
+.reading-time {
+  font-style: italic;  
+}
