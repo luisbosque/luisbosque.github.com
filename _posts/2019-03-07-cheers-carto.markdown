@@ -37,7 +37,7 @@ And also some things that, although they may seem obvious, I would like to highl
 
 I'm grateful to many people for their help and for everything I've learned from them. People are a crucial part of this deal. This is something I wrote in my internal goodbye email:
 
-> I've helped and supported people that needed me, and I've had immense support too in the bad moments. Thank you. But most importantly I've shared experiences and work side by side with people I truly admire and respect. And I'm happy to say that I've made friendships that will last forever.
+> I've helped and supported people that needed me, and I've had immense support too in the bad moments. Thank you. But most importantly, I've shared experiences and worked side by side with people I truly admire and respect. And I'm happy to say that I've made friendships that will last forever.
 
 It's not about the destination, but about the trip and who you share it with. The right mates will make you enjoy your job. The wrong ones will make you hate it.
 
