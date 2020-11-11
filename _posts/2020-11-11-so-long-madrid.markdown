@@ -17,7 +17,7 @@ And yes there have been some bad parts. For instance, my health hasn't been grea
 
 The reality, though, is that Madrid has given me and my partner plenty of opportunities to grow personally and professionally. We have had good and bad experiences. But after every bad experience, there were always many new opportunities.
 
-But the most important part, and what made it worthwhile, was all the everlasting friends we have made across these years. Some of them stay in Madrid and some of them have also left, but I intend to keep'em all close, one way or another, as time goes on.
+But the most important part, and what made it worthwhile, was all the excepcional and everlasting friends we have made across these years. Some of them stay in Madrid and some of them have also left, but I intend to keep'em all close, one way or another, as time goes on.
 
 I was excited about the change but also, afraid. And now that it's happened, I couldn't be happier. I'm closer to nature, and, ahead, there are new routines, new places to visit, new food, new culture (even a bit of new language), and new weather :D
 
