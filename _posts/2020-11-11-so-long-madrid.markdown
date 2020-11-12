@@ -11,7 +11,7 @@ tags:
 
 TL;DR: After ~10 years, I've said goodbye to Madrid, and moved to the rainy north of Spain.
 
-I'll begin admitting that, before moving to Madrid, I loathed the idea. That city, its mad traffic and the rushed people weren't for me. But, what can I say? That's been my biggest "I'll never.." in your face.
+I'll begin admitting that, before moving to Madrid, I loathed the idea. That city, its mad traffic and the rushed people weren't for me. But, what can I say? That's been my biggest "I'll never..". In your face!
 
 And yes there have been some bad parts. For instance, my health hasn't been great during these 10 years. But, being honest, work stress, age, and unpredictable random events never help.
 
